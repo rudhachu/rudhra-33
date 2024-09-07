@@ -17,7 +17,11 @@
   ],
   "author": "princerudh",
   "license": "ISC",
-    "dependencies": {
+  "bugs": {
+    "url": "https://github.com/rudhachu/rudhra-3/issues"
+  },
+  "homepage": "https://github.com/rudhachu/rudhra-3#readme",
+  "dependencies": {
     "@adiwajshing/baileys": "git+https://github.com/princerudh/Baileys.js.git",
     "@adiwajshing/keyed-db": "^0.2.4",
     "acrcloud": "^1.4.0",
