@@ -22,6 +22,7 @@ module.exports = {
   AUDIO_DATA: process.env.AUDIO_DATA || "Ʀ ᴜ ᴅ ʜ ʀ λ;Ƥ ʀ ɪ ɴ ᴄ ᴇ  Ʀ ᴜ ᴅ ʜ;https://raw.githubusercontent.com/rudhra-prh/media/main/image/rudhra2.jpg",
   BRANCH: "master",
   MODE: (process.env.MODE || 'private').toLowerCase(),
+  LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
   ERROR_MSG: toBool(process.env.ERROR_MSG),
   LOG_MSG: toBool(process.env.LOG_MSG),
   READ_CMD: toBool(process.env.READ_CMD),
