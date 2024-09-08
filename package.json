@@ -43,12 +43,11 @@
     "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",
     "sequelize": "^6.13.0",
-     "sharp": "^0.32.6",
+    "sharp": "^0.32.6",
     "simple-git": "^3.7.1",
     "socket.io-client": "^4.7.5",
     "sqlite3": "^5.1.7",
     "string-crypto": "2.0.2",
-    "util": "^0.12.4",
-    "ytsr": "^3.8.4"
+    "util": "^0.12.4"
   }
 }
