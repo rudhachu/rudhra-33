@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
   "@adiwajshing/baileys": "git+https://github.com/princerudh/Baileys.js.git",
+    "@neeraj-x0/ytsearch": "^1.0.0",
+    "api-dylux": "^1.8.5",
     "axios": "^1.6.8",
     "browser-id3-writer": "^4.4.0",
     "cheerio": "^1.0.0-rc.10",
