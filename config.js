@@ -20,7 +20,7 @@ const DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.en
 module.exports = {
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   AUDIO_DATA: process.env.AUDIO_DATA || "Ʀ ᴜ ᴅ ʜ ʀ λ;Ƥ ʀ ɪ ɴ ᴄ ᴇ  Ʀ ᴜ ᴅ ʜ;https://raw.githubusercontent.com/rudhra-prh/media/main/image/rudhra2.jpg",
-  BRANCH: "master",
+  BRANCH: "main",
   MODE: (process.env.MODE || 'private').toLowerCase(),
   LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
   ERROR_MSG: toBool(process.env.ERROR_MSG),
