@@ -2,7 +2,7 @@
   "name": "rudhra-3",
   "version": "1.0.0",
   "description": "Rudhra Whatsapp Bot",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "pm2 start . --attach --name rudhra",
     "code": "node lib/pcode.js",
@@ -33,6 +33,8 @@
     "imgbb-uploader": "^1.5.1",
     "imgur": "^2.2.0",
     "mask-md": "^1.3.0",
+    "node": "20",
+    "npm": "6",
     "node-cron": "^3.0.3",
     "node-fetch": "2.6.1",
     "node-webpmux": "^3.1.7",
