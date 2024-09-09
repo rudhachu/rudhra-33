@@ -2,7 +2,7 @@
   "name": "rudhra-3",
   "version": "1.2.0",
   "description": "Rudhra Whatsapp Bot",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "start": "pm2 start . --attach --name rudhra",
     "code": "node lib/pcode.js",
